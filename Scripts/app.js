@@ -87,7 +87,7 @@ function productsPage()
     // Product 1 img
      currentNode = document.getElementById("book1Img");
      var newNode = document.createElement("img")
-     newNode.setAttribute("src", "../Lab1-main/images/book1.jpg");
+     newNode.setAttribute("src", "./images/book1.jpg");
      newNode.setAttribute("width", "200px");
      newNode.setAttribute("height", "200px");
      currentNode.appendChild(newNode);
@@ -98,7 +98,7 @@ function productsPage()
     // Product 2 img
      currentNode = document.getElementById("book2Img");
      newNode = document.createElement("img")
-     newNode.setAttribute("src", "../Lab1-main/images/book2.jpg");
+     newNode.setAttribute("src", "./images/book2.jpg");
      newNode.setAttribute("width", "200px");
      newNode.setAttribute("height", "200px");
      currentNode.appendChild(newNode);
@@ -109,7 +109,7 @@ function productsPage()
     // Product 3 img
      currentNode = document.getElementById("book3Img");
      newNode = document.createElement("img")
-     newNode.setAttribute("src", "../Lab1-main/images/book3.jpg");
+     newNode.setAttribute("src", "./images/book3.jpg");
      newNode.setAttribute("width", "200px");
      newNode.setAttribute("height", "200px");
      currentNode.appendChild(newNode);
@@ -138,7 +138,7 @@ function servicesPage()
    // Service 2 img
     currentNode = document.getElementById("service2Img");
     newNode = document.createElement("img")
-    newNode.setAttribute("src", "../Lab1-main/images/service2.png");
+    newNode.setAttribute("src", "./images/service2.png");
     newNode.setAttribute("width", "200px");
     newNode.setAttribute("height", "200px");
     currentNode.appendChild(newNode);
@@ -149,7 +149,7 @@ function servicesPage()
    // Service 3 img
     currentNode = document.getElementById("service3Img");
     newNode = document.createElement("img")
-    newNode.setAttribute("src", "../Lab1-main/images/servie3.png");
+    newNode.setAttribute("src", "./images/servie3.png");
     newNode.setAttribute("width", "200px");
     newNode.setAttribute("height", "200px");
     currentNode.appendChild(newNode);
