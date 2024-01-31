@@ -127,7 +127,7 @@ function servicesPage()
     // Service 1 img
     currentNode = document.getElementById("service1Img");
     var newNode = document.createElement("img")
-    newNode.setAttribute("src", "../Lab1-main/images/service1.png");
+    newNode.setAttribute("src", "../images/service1.png");
     newNode.setAttribute("width", "200px");
     newNode.setAttribute("height", "200px");
     currentNode.appendChild(newNode);
