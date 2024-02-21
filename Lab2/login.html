@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "utf-8">
+      <title>WEBD6201 Login Page</title>
+      <link rel = "stylesheet" type = "text/css" href = "Content/app.css">
+      <script src="https://kit.fontawesome.com/aa65acc3cc.js" crossorigin="anonymous"></script>
+      <script src = "Scripts/app.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <!-- Main Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WEBD6201</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="links" id="navbarSupportedContent">
+            <ul id = "nav">
+                <li id ="contact"><a href="contact.html"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+                <li id ="about"><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+                <li id ="services"><a href="services.html"><i class="fa-solid fa-bell"></i> Services</a></li>
+                <li id ="products"><a href="products.html"><i class="fa-solid fa-border-all"></i> Products</a></li>
+                <li id ="index"><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>      
+                <li style="float:left; padding: 14px 16px; color: white; text-align: center;">WEBD6201 - Lab 1</li>
+                <li id="login" class="nav-item"><a class="nav-link" href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                <li id="logout" class="nav-item active"><a class="nav-link" href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+              </ul>
+          </div>
+           <!-- <div id = "links"></div> -->
+      </nav>
+
+      <!-- Main Content -->
+      <main class="container" id="mainContent">
+          <div class="row">
+              <div class="offset-md-3 col-md-6 col-sm-12">
+                    <div class="login" id="contentArea">
+                        <h1 class="display-4">Login</h1>
+                        <form id="loginForm" novalidate>
+                          
+                          <div class="form-group">
+                            <div class="input-group">
+                              <span class="input-group-addon">
+                                <i class="fa fa-user">
+                                </i>
+                              </span>
+                              <input type="text" class="form-control" id="contactName" name="userName"  required
+                              value="" placeholder="Enter your username">
+                            </div>
+                          
+                          </div>
+
+                          <div class="form-group">
+                            <div class="input-group">
+                              <span class="input-group-addon">
+                                <i class="fa fa-lock">
+                                </i>
+                              </span>
+                              <input type="password" class="form-control" id="password" name="password"  required
+                              value="" placeholder="Enter your password">
+                            </div>
+                          
+                          </div>                                        
+                          <div class="text-right">
+                            <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Login</button>
+                          </div>
+                        </form>
+                      
+                    </div>
+                    <p class="text-center text-muted small">
+                      Don't have an account? 
+                      <a href="register.html">Register Here!</a>
+                    </p>
+              </div>
+          </div>
+      </main>
+
+      <footer>
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+          <h4 class="display-6">&copy; CopyRight 2023.</h4>
+        </nav>
+      </footer>
+
+    <!-- SCRIPT SECTION -->
+    <!-- 3rd Party Libraries -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- App Scripts -->
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>
