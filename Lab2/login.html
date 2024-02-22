@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Login Page</title>
+    
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Content/app.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">INFT2202</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li style="float:left; padding: 14px 16px; color: white; text-align: center;">WEBD6201 - LAB 2</li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><span class="fa fa-home"></span> Home</a>
+          </li>
+          <li class="nav-item" id="products">
+            <a class="nav-link" href="products.html"><span class="fa fa-th"></span> Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html"><span class="fa fa-bell"></span> Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><span class="fa fa-info"></span> About Us</a>
+          </li>
+          <li class="nav-item" id="contactUs">
+            <a class="nav-link" href="contact.html"><span class="fa fa-phone"></span> Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="login.html"><span class="fa fa-phone"></span> Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html"><span class="fa fa-phone"></span> Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>      
+  <div class="login-container">
+      <h2>Login</h2>
+      <form class="login-form" method="POST">
+          <input type="text" id="username" name="username" placeholder="Username" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <button type="submit" id="login">Login</button>
+      </form>
+  </div>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./scripts/app.js"></script>
+</body>
+</html>

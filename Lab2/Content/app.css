@@ -1,0 +1,154 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(3, 49, 3);
+  }
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(3, 49, 3);
+  color: white;
+}
+table {
+  /* background-color:black; */
+  color: rgb(3, 49, 3);
+}
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+
+  body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #808000;
+  }
+  
+  #submit{
+    background-color: #e335ec;
+    border-style: outset;
+    font-weight: bold;
+  }
+  #submit:hover{
+    color: aqua;
+    background-color: #008080;
+  }
+
+  #footer{
+    color: white;
+  }
+
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.register-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.register-form button:hover {
+    background-color: #45a049;
+}
+.login-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: auto;
+}
+.login-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.login-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+.register-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    /* Centering the container horizontally */
+    margin: auto;
+}
+.register-container h2 {
+    margin-top: 0;
+    text-align: center;
+}
+#register:hover{
+  color: pink;
+  background-color: #008080;
+}
+#login:hover{
+  color: gold;
+  background-color: #008080;
+}
+
+
+s
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  body {
+   
+    background-color: beige;
+   }
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
