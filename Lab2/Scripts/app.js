@@ -3,6 +3,7 @@
 //   Student ID   : 100844683      &   100870571
 //   Date         : 14 Feb 2023
 //   Description  : This is the services page.
+//
 var seconds = 0;
 var currentNode;
 // Ran when a page is loaded it populates the the page with the correct data
@@ -13,21 +14,7 @@ function checkPage()
     currentNode.innerHTML =`<li id ="products"><a href="products.html">
     <i class="fa-solid fa-border-all"></i> Products</a></li>`;
 
-    // Finds the nav and sets it to the current node
-    currentNode = document.getElementById("nav");
-   // Creates the humanresources link to append
-    var newNavLink = document.createElement("li");
-    var newA = document.createElement("a");
-    var newI=document.createElement("i");
-    newA.setAttribute("id", "humanresources");
-    newA.setAttribute("href", "humanresources.html");
-    newI.setAttribute("class", "fas fa-user-tie");
-    newA.textContent =" Human Resources";
-    newA.prepend(newI);
-    newNavLink.appendChild(newA);
-
-   // Adds new human resoursces link to nav bar
-    currentNode.insertBefore(newNavLink, currentNode.childNodes[4]);
+    
     
 
     // Gets current url pathname to determine current page
